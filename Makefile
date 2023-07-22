@@ -19,7 +19,7 @@ backup: ## [subtarget] backup current defaults
 
 .PHONY: clean
 clean: ## clear backup defaults
-	$(RM) defaults.*.txt
+	$(RM) -i defaults.*.txt
 
 .PHONY: vars
 vars: ## print variables
